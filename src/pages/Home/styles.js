@@ -6,6 +6,14 @@ export const Container = styled.SafeAreaView`
     padding: 4px 0;
 `;
 
+export const Spinner = styled.View`
+    background-color: #141a29;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 0;
+`;
+
 export const SearchContainer = styled.View`
     flex-direction: row;
     width: 100%;
@@ -32,3 +40,26 @@ export const SearchButton = styled.TouchableOpacity`
     justify-content: center;
 `;
 
+export const Title = styled.Text`
+    padding-top: 20px;
+    padding-bottom: 8px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #E72f;
+    padding-left: 14px;
+    padding-right: 14px;
+`;
+export const BannerButton = styled.TouchableOpacity`
+
+`;
+export const Banner = styled.Image`
+    width: 93%;
+    height: 180px;
+    border-radius: 6px;
+    margin: 0 14px;
+`;
+
+export const SliderMovie = styled.FlatList`
+    height: 250px;
+    padding: 0 14px;
+`;

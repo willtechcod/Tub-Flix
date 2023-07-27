@@ -12,7 +12,7 @@ export default function Header({ title }){
     return(
         <Container>
             <MenuButton onPress={() => navigation.openDrawer()}>
-                <Feather name="menu" size={36} color='#FFF' />
+                <Feather name="menu" size={36} color='#E72f' />
             </MenuButton>
             <Title>{title}</Title>
         </Container>

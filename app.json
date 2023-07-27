@@ -1,30 +1,29 @@
 {
   "expo": {
-    "name": "play-tub",
-    "slug": "play-tub",
+    "name": "tub-flix",
+    "slug": "tub-flix",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "resizeMode": "cover",
+      "backgroundColor": "#1d1d2e"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.willcode2019.tub-flix"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
+        "backgroundColor": "#1d1d2e"
+      },
+      "package": "com.willcode2019.tubflix"
     }
   }
 }
