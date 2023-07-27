@@ -13,7 +13,8 @@
 
 # :clipboard: Sobre o projeto
 
-Este é um projeto simples onde você poderá ver um pouco mais sobre mim e meus conhecimentos em desenvolvimento web.
+Este é um projeto simples onde você poderá ver um pouco mais sobre mim e meus conhecimentos em desenvolvimento mobile.
+aplicativo que lista filmes e mostra detallhes de lançamento, sinopse e genero.
 
 Abaixo podemos ver o resultado final do projeto. Espero que gostem!
 
@@ -38,13 +39,13 @@ Abaixo podemos ver o resultado final do projeto. Espero que gostem!
 #Clonando o repositório do Github:
 $ git clone https://github.com/willtechcod/Tub-Flix.git
 
-#Acessar pasta Web:
+#Acessar pasta do projeto:
 $ cd Tub-Flix
 
-#Instalar alguns packages:
+#Instalar pasta node_modules:
 $ npm i
 
-#Inicializar pasta Web:
+#Inicializar o projeto:
 $ npx expo start
 
 ```
